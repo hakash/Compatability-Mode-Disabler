@@ -5,7 +5,7 @@ Plugin Name: Compatibility Mode Disabler
 Description: Force IE to not use compatibility settings
 Version: 1.0.0
 Author: Morten Olsrud
-Author URI: acodersthoughts.wordpress.com
+Author URI: http://acodersthoughts.wordpress.com
 */
 
 add_filter( 'wp_headers', 'compatibility_mode_disabler' );
